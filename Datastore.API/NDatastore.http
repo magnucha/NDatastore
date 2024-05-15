@@ -1,0 +1,6 @@
+@NDatastore_HostAddress = http://localhost:5115
+
+GET {{NDatastore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
