@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDatastore.Common.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDatastore.Common.Infrastructure", "NDatastore.Common.Infrastructure\NDatastore.Common.Infrastructure.csproj", "{6AC8B0A4-B18D-4CAE-8549-2E56E9DAEF15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDatastore.Modules.Deployment.Presentation", "NDatastore.Modules.Deployment.Presentation\NDatastore.Modules.Deployment.Presentation.csproj", "{FB32A40D-A1FF-4CD4-96EE-3E3E8E1A1779}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{6AC8B0A4-B18D-4CAE-8549-2E56E9DAEF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AC8B0A4-B18D-4CAE-8549-2E56E9DAEF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AC8B0A4-B18D-4CAE-8549-2E56E9DAEF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB32A40D-A1FF-4CD4-96EE-3E3E8E1A1779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB32A40D-A1FF-4CD4-96EE-3E3E8E1A1779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB32A40D-A1FF-4CD4-96EE-3E3E8E1A1779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB32A40D-A1FF-4CD4-96EE-3E3E8E1A1779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{72B64385-508D-4A7F-9A03-C3A6DE74FCBE} = {D883BB32-585E-4C64-AAA3-502507ABA19F}
@@ -59,5 +65,6 @@ Global
 		{14C2040D-DD53-41F2-A125-052E322646CC} = {72B64385-508D-4A7F-9A03-C3A6DE74FCBE}
 		{87B747D0-F52E-460D-A605-5093EEFAE890} = {1FCACD81-EF37-4C61-BCEF-E456EEC8F780}
 		{6AC8B0A4-B18D-4CAE-8549-2E56E9DAEF15} = {1FCACD81-EF37-4C61-BCEF-E456EEC8F780}
+		{FB32A40D-A1FF-4CD4-96EE-3E3E8E1A1779} = {72B64385-508D-4A7F-9A03-C3A6DE74FCBE}
 	EndGlobalSection
 EndGlobal

@@ -1,16 +1,15 @@
-﻿using NDatastore.Common.Domain;
-using NDatastore.Common.Domain.BaseClasses;
+﻿using NDatastore.Common.Domain.BaseClasses;
 using NDatastore.Common.Domain.Exceptions;
 using NDatastore.Common.Domain.Interfaces;
 
-namespace Datastore.Modules.Deployment.Domain.Aggregates.Site;
+namespace Datastore.Modules.Deployment.Domain.Entities.Site;
 
 public class Site : Entity, IAggregateRoot
 {
-    public string Name { get; private set; }
-    public string UniqueName { get; private set; }
+    public string Name { get; set; }
+    public string UniqueName { get; set; }
 
-    public List<Field> Fields { get; private set; }
+    public List<Field> Fields { get; set; }
 
     protected Site()
     {

@@ -9,7 +9,7 @@ public abstract class Entity
     [DatabaseGenerated((DatabaseGeneratedOption.Identity))]
     public virtual Guid Id { get; protected set; }
     private int? _requestedHashCode;
-    public List<INotification> DomainEvents { get; private set; }
+    public List<INotification>? DomainEvents { get; private set; }
 
     public void AddDomainEvent(INotification eventItem)
     {

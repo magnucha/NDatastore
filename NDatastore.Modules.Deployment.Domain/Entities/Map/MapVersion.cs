@@ -1,7 +1,6 @@
-﻿using NDatastore.Common.Domain;
-using NDatastore.Common.Domain.BaseClasses;
+﻿using NDatastore.Common.Domain.BaseClasses;
 
-namespace Datastore.Modules.Deployment.Domain.Aggregates.Map;
+namespace Datastore.Modules.Deployment.Domain.Entities.Map;
 
 public class MapVersion(int majorVersion, int minorVersion) : ValueObject, IComparable<MapVersion>
 {

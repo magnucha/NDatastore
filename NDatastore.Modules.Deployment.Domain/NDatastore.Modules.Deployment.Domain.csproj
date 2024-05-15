@@ -11,8 +11,4 @@
       <ProjectReference Include="..\NDatastore.Common.Domain\NDatastore.Common.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Events\" />
-    </ItemGroup>
-
 </Project>

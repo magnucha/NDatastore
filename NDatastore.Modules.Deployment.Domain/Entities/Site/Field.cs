@@ -1,15 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using NDatastore.Common.Domain;
-using NDatastore.Common.Domain.BaseClasses;
+﻿using NDatastore.Common.Domain.BaseClasses;
 
-namespace Datastore.Modules.Deployment.Domain.Aggregates.Site;
+namespace Datastore.Modules.Deployment.Domain.Entities.Site;
 
 public class Field : Entity
 {
-    public string Name { get; private set; }
-    public string UniqueName { get; private set; }
+    public string Name { get; set; }
+    public string UniqueName { get; set; }
     
-    public List<CropRow> CropRows { get; private set; }
+    public Guid MapId { get; set; }
+    public List<CropRow> CropRows { get; set; }
 
     protected Field()
     {
@@ -27,5 +26,12 @@ public class Field : Entity
     public bool IsEqualTo(string uniqueName)
     {
         return UniqueName == uniqueName;
+    }
+
+    public Field WithMap()
+    {
+        throw new NotImplementedException();
+        MapId = new Guid();
+        return this;
     }
 }

@@ -8,11 +8,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.5" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\NDatastore.Common.Infrastructure\NDatastore.Common.Infrastructure.csproj" />
       <ProjectReference Include="..\NDatastore.Modules.Deployment.Domain\NDatastore.Modules.Deployment.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Configuration\" />
     </ItemGroup>
 
 </Project>

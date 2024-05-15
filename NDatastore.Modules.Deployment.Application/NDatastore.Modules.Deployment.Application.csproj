@@ -7,4 +7,8 @@
         <RootNamespace>Datastore.Modules.Deployment.Application</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\NDatastore.Modules.Deployment.Domain\NDatastore.Modules.Deployment.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
